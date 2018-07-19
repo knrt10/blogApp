@@ -37,9 +37,9 @@ app.use(bodyParser.json())
 // Start === Getting router and setting them
 app.use('/user', user)
 
-app.use(express.static(path.join(__dirname, '/public')))
+app.use(express.static(__dirname + '/public'))
 app.get('*', (req, res, next) => {
-  res.sendFile(path.resolve(__dirname, '/public/index.html'))
+  res.sendFile(path.join(__dirname + '/public/index.html'))
 })
 
 // === END
