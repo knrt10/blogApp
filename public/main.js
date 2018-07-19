@@ -194,7 +194,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".blogCard{\n  background-color: #ED9F21;\n  color: #2E3280;\n}\n\n.hovere{\n  cursor: pointer;\n  color: white\n}\n"
+module.exports = ".blogCard{\n  background-color: #2c2c2c;\n  color: #F1F8FE;\n}\n\n.hovere{\n  cursor: pointer;\n  color: #868e96e3;\n}\n"
 
 /***/ }),
 
@@ -319,7 +319,7 @@ var BlogComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".hovere{\n  cursor: pointer;\n  color: #2E3280;\n}\n\n.homeBlog{\n  background-color: #F1F8FE;\n  color: #2E3280;\n}\n"
+module.exports = ".homeBlog{\n  background-color: #2c2c2c;\n  color: #F1F8FE;\n}\n\n.hovere{\n  cursor: pointer;\n  color: #868e96e3;\n}\n"
 
 /***/ }),
 
@@ -535,7 +535,7 @@ var CreateblogComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".hovere{\n  cursor: pointer;\n  color: #2E3280;\n}\n\n.homeBlog{\n  background-color: #F1F8FE;\n  color: #2E3280;\n}\n"
+module.exports = ".hovere{\n  cursor: pointer;\n  color: #868e96e3;\n}\n\n.homeBlog{\n  background-color: #2c2c2c;\n  color: #F1F8FE;\n}\n"
 
 /***/ }),
 
@@ -638,7 +638,7 @@ var HomeComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".loginCard{\n  background-color: #ED9F21;\n  color: #2E3280;\n}\n\n.hovere{\n  cursor: pointer;\n  color: #2E3280;\n}\n"
+module.exports = ".loginCard{\n  background-color: #2c2c2c;\n  color: #F1F8FE;\n}\n\n.hovere{\n  cursor: pointer;\n  color: #868e96e3;\n}\n"
 
 /***/ }),
 
@@ -831,7 +831,7 @@ var NavbarComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".profileCard{\n  background-color: #ED9F21;\n  color: #2E3280;\n}\n\n.hovere{\n  cursor: pointer;\n  color: white\n}\n"
+module.exports = ".profileCard{\n  background-color: #2c2c2c;\n  color: #F1F8FE;\n}\n\n.hovere{\n  cursor: pointer;\n  color: white\n}\n"
 
 /***/ }),
 
@@ -842,7 +842,7 @@ module.exports = ".profileCard{\n  background-color: #ED9F21;\n  color: #2E3280;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div *ngIf=\"user\">\n<h1 class=\"hovere\">{{user.username}}'s Profile</h1>\n<hr>\n  <div class=\"jumbotron profileCard\">\n    <h3>Joined on : {{user.createdAt}}</h3>\n    <h3>Email : <span style=\"font-size:14px;\"> {{user.email}}</span></h3>\n    <div class=\"card text-white bg-warning mb-3 \" style=\"max-width: 20rem;\">\n      <h3 class=\"card-header\">Bio</h3>\n        <div class=\"card-body \">\n          <h4 class=\"card-title\">{{user.displayName}}</h4>\n          <p class=\"card-text text-center\">{{user.bio || \" \"}}</p>\n        </div>\n    </div>\n    <div class=\"well\">\n      <a href=\"blog\" class=\"btn btn-info\" onmousedown=\"return false\" >Manage Blogs</a>\n      <a href=\"setting\" class=\"btn btn-success\" onmousedown=\"return false\">Update Profile</a>\n    </div>\n<br/>\n\n  </div>\n</div>\n"
+module.exports = "<div *ngIf=\"user\">\n<h1 class=\"hovere\">{{user.username}}'s Profile</h1>\n<hr>\n  <div class=\"jumbotron profileCard\">\n    <h3 class=\"profileCard\">Joined on : {{user.createdAt}}</h3>\n    <h3 class=\"profileCard\">Email : <span style=\"font-size:14px;\"> {{user.email}}</span></h3>\n    <div class=\"card text-white bg-warning mb-3 \" style=\"max-width: 20rem;\">\n      <h3 class=\"card-header\">Bio</h3>\n        <div class=\"card-body \">\n          <h4 class=\"card-title\">{{user.displayName}}</h4>\n          <p class=\"card-text text-center\">{{user.bio || \" \"}}</p>\n        </div>\n    </div>\n    <div class=\"well\">\n      <a href=\"blog\" class=\"btn btn-info\" onmousedown=\"return false\" >Manage Blogs</a>\n      <a href=\"setting\" class=\"btn btn-success\" onmousedown=\"return false\">Update Profile</a>\n    </div>\n    <br/>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -922,7 +922,7 @@ var ProfileComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".registerCard{\n  background-color: #ED9F21;\n  color: #2E3280;\n}\n\n.hovere{\n  cursor: pointer;\n  color: #2E3280;\n}\n"
+module.exports = ".registerCard{\n  background-color: #2c2c2c;\n  color: #F1F8FE;\n}\n\n.hovere{\n  cursor: pointer;\n  color: #868e96e3;\n}\n"
 
 /***/ }),
 
@@ -1046,7 +1046,7 @@ var RegisterComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".settingsCard{\n  background-color: #ED9F21;\n  color: #2E3280;\n}\n\n.hovere{\n  cursor: pointer;\n  color: white\n}\n"
+module.exports = ".settingsCard{\n  background-color: #2c2c2c;\n  color: #F1F8FE;\n}\n\n.hovere{\n  cursor: pointer;\n  color: #868e96e3;\n}\n"
 
 /***/ }),
 
@@ -1366,13 +1366,13 @@ var AuthService = /** @class */ (function () {
         var headers = new _angular_http__WEBPACK_IMPORTED_MODULE_1__["Headers"]();
         headers.append('Authorization', this.authToken);
         headers.append('Content-Type', 'application/json');
-        return this.http.post('https://perfect-tiglon.glitch.me/user/register', user, { headers: headers })
+        return this.http.post('user/register', user, { headers: headers })
             .map(function (res) { return res.json(); });
     };
     AuthService.prototype.authenticateUser = function (user) {
         var headers = new _angular_http__WEBPACK_IMPORTED_MODULE_1__["Headers"]();
         headers.append('Content-Type', 'application/json');
-        return this.http.post('https://perfect-tiglon.glitch.me/user/authenticate', user, { headers: headers })
+        return this.http.post('user/authenticate', user, { headers: headers })
             .map(function (res) { return res.json(); });
     };
     AuthService.prototype.getProfile = function () {
@@ -1380,7 +1380,7 @@ var AuthService = /** @class */ (function () {
         this.loadToken();
         headers.append('Authorization', this.authToken);
         headers.append('Content-Type', 'application/json');
-        return this.http.get('https://perfect-tiglon.glitch.me/user/profile', { headers: headers })
+        return this.http.get('user/profile', { headers: headers })
             .map(function (res) { return res.json(); });
     };
     AuthService.prototype.changeSetting = function (user) {
@@ -1388,7 +1388,7 @@ var AuthService = /** @class */ (function () {
         this.loadToken();
         headers.append('Authorization', this.authToken);
         headers.append('Content-Type', 'application/json');
-        return this.http.post('https://perfect-tiglon.glitch.me/user/setting', user, { headers: headers })
+        return this.http.post('user/setting', user, { headers: headers })
             .map(function (res) { return res.json(); });
     };
     AuthService.prototype.addblog = function (body) {
@@ -1396,7 +1396,7 @@ var AuthService = /** @class */ (function () {
         this.loadToken();
         headers.append('Authorization', this.authToken);
         headers.append('Content-Type', 'application/json');
-        return this.http.post('https://perfect-tiglon.glitch.me/user/blog', body, { headers: headers })
+        return this.http.post('user/blog', body, { headers: headers })
             .map(function (res) { return res.json(); });
     };
     AuthService.prototype.addblogAnon = function (body) {
@@ -1404,7 +1404,7 @@ var AuthService = /** @class */ (function () {
         this.loadToken();
         headers.append('Authorization', this.authToken);
         headers.append('Content-Type', 'application/json');
-        return this.http.post('https://perfect-tiglon.glitch.me/user/blogAnon', body, { headers: headers })
+        return this.http.post('user/blogAnon', body, { headers: headers })
             .map(function (res) { return res.json(); });
     };
     AuthService.prototype.addCommentAnon = function (leaveId, body) {
@@ -1412,7 +1412,7 @@ var AuthService = /** @class */ (function () {
         this.loadToken();
         headers.append('Authorization', this.authToken);
         headers.append('Content-Type', 'application/json');
-        return this.http.post('https://perfect-tiglon.glitch.me/user/blogone/' + leaveId, body, { headers: headers })
+        return this.http.post('user/blogone/' + leaveId, body, { headers: headers })
             .map(function (res) { return res.json(); });
     };
     AuthService.prototype.getComments = function (leaveId) {
@@ -1420,7 +1420,7 @@ var AuthService = /** @class */ (function () {
         this.loadToken();
         headers.append('Authorization', this.authToken);
         headers.append('Content-Type', 'application/json');
-        return this.http.get('https://perfect-tiglon.glitch.me/user/blogone/' + leaveId, { headers: headers })
+        return this.http.get('user/blogone/' + leaveId, { headers: headers })
             .map(function (res) { return res.json(); });
     };
     AuthService.prototype.getBlogs = function () {
@@ -1428,7 +1428,7 @@ var AuthService = /** @class */ (function () {
         this.loadToken();
         headers.append('Authorization', this.authToken);
         headers.append('Content-Type', 'application/json');
-        return this.http.get('https://perfect-tiglon.glitch.me/user/all', { headers: headers })
+        return this.http.get('user/all', { headers: headers })
             .map(function (res) { return res.json(); });
     };
     AuthService.prototype.getuserBlogs = function () {
@@ -1436,7 +1436,7 @@ var AuthService = /** @class */ (function () {
         this.loadToken();
         headers.append('Authorization', this.authToken);
         headers.append('Content-Type', 'application/json');
-        return this.http.get('https://perfect-tiglon.glitch.me/user/blog', { headers: headers })
+        return this.http.get('user/blog', { headers: headers })
             .map(function (res) { return res.json(); });
     };
     AuthService.prototype.deleteLeave = function (leave_id) {
@@ -1444,7 +1444,7 @@ var AuthService = /** @class */ (function () {
         this.loadToken();
         headers.append('Authorization', this.authToken);
         headers.append('Content-Type', 'application/json');
-        return this.http.post('https://perfect-tiglon.glitch.me/user/blog/' + leave_id, { headers: headers })
+        return this.http.post('user/blog/' + leave_id, { headers: headers })
             .map(function (res) { return res.json(); });
     };
     AuthService.prototype.getOneBlogUnauth = function (leave_id) {
@@ -1452,7 +1452,7 @@ var AuthService = /** @class */ (function () {
         this.loadToken();
         headers.append('Authorization', this.authToken);
         headers.append('Content-Type', 'application/json');
-        return this.http.get('https://perfect-tiglon.glitch.me/user/blog/' + leave_id, { headers: headers })
+        return this.http.get('user/blog/' + leave_id, { headers: headers })
             .map(function (res) { return res.json(); });
     };
     AuthService.prototype.getOneBlog = function (leave_id) {
@@ -1460,7 +1460,7 @@ var AuthService = /** @class */ (function () {
         this.loadToken();
         headers.append('Authorization', this.authToken);
         headers.append('Content-Type', 'application/json');
-        return this.http.get('https://perfect-tiglon.glitch.me/user/update/' + leave_id, { headers: headers })
+        return this.http.get('user/update/' + leave_id, { headers: headers })
             .map(function (res) { return res.json(); });
     };
     AuthService.prototype.updateOneBlog = function (leave_id, body) {
@@ -1468,7 +1468,7 @@ var AuthService = /** @class */ (function () {
         this.loadToken();
         headers.append('Authorization', this.authToken);
         headers.append('Content-Type', 'application/json');
-        return this.http.post('https://perfect-tiglon.glitch.me/user/update/' + leave_id, body, { headers: headers })
+        return this.http.post('user/update/' + leave_id, body, { headers: headers })
             .map(function (res) { return res.json(); });
     };
     AuthService.prototype.storeUserData = function (token, user) {
