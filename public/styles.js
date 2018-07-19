@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* You can add global styles to this file, and also import other style files */\n.body {\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif;\n  background-image: radial-gradient(94.92% 96.5%,#1c77be 0,#265bcc 44.47%,#4324ae 100%);\n}\n"
+module.exports = "/* You can add global styles to this file, and also import other style files */\n.body {\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif;\n  background-color: rgb(49, 40, 51);\n}\n"
 
 /***/ }),
 

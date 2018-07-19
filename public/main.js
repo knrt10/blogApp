@@ -41,7 +41,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-navbar></app-navbar>\n<br>\n<br>\n\n<div class=\"container\">\n  <flash-messages></flash-messages>\n  <router-outlet></router-outlet>\n</div>\n"
+module.exports = "<app-navbar></app-navbar>\n<br>\n<br>\n\n<div class=\"container\">\n  <flash-messages></flash-messages>\n  <ng4-loading-spinner> </ng4-loading-spinner>\n  <router-outlet></router-outlet>\n</div>\n"
 
 /***/ }),
 
@@ -96,27 +96,30 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
 /* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/navbar/navbar.component */ "./src/app/components/navbar/navbar.component.ts");
-/* harmony import */ var _components_register_register_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/register/register.component */ "./src/app/components/register/register.component.ts");
-/* harmony import */ var _services_auth_service__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./services/auth.service */ "./src/app/services/auth.service.ts");
-/* harmony import */ var _components_login_login_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/login/login.component */ "./src/app/components/login/login.component.ts");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _guards_auth_guard__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./guards/auth.guard */ "./src/app/guards/auth.guard.ts");
-/* harmony import */ var _components_profile_profile_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/profile/profile.component */ "./src/app/components/profile/profile.component.ts");
-/* harmony import */ var _components_setting_setting_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/setting/setting.component */ "./src/app/components/setting/setting.component.ts");
-/* harmony import */ var _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/blog/blog.component */ "./src/app/components/blog/blog.component.ts");
-/* harmony import */ var _components_home_home_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/home/home.component */ "./src/app/components/home/home.component.ts");
-/* harmony import */ var _components_update_update_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/update/update.component */ "./src/app/components/update/update.component.ts");
-/* harmony import */ var _components_blogone_blogone_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/blogone/blogone.component */ "./src/app/components/blogone/blogone.component.ts");
-/* harmony import */ var _components_createblog_createblog_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/createblog/createblog.component */ "./src/app/components/createblog/createblog.component.ts");
+/* harmony import */ var ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ng4-loading-spinner */ "./node_modules/ng4-loading-spinner/ng4-loading-spinner.umd.js");
+/* harmony import */ var ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/navbar/navbar.component */ "./src/app/components/navbar/navbar.component.ts");
+/* harmony import */ var _components_register_register_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/register/register.component */ "./src/app/components/register/register.component.ts");
+/* harmony import */ var _services_auth_service__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./services/auth.service */ "./src/app/services/auth.service.ts");
+/* harmony import */ var _components_login_login_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/login/login.component */ "./src/app/components/login/login.component.ts");
+/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
+/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./guards/auth.guard */ "./src/app/guards/auth.guard.ts");
+/* harmony import */ var _components_profile_profile_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/profile/profile.component */ "./src/app/components/profile/profile.component.ts");
+/* harmony import */ var _components_setting_setting_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/setting/setting.component */ "./src/app/components/setting/setting.component.ts");
+/* harmony import */ var _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/blog/blog.component */ "./src/app/components/blog/blog.component.ts");
+/* harmony import */ var _components_home_home_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/home/home.component */ "./src/app/components/home/home.component.ts");
+/* harmony import */ var _components_update_update_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/update/update.component */ "./src/app/components/update/update.component.ts");
+/* harmony import */ var _components_blogone_blogone_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/blogone/blogone.component */ "./src/app/components/blogone/blogone.component.ts");
+/* harmony import */ var _components_createblog_createblog_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/createblog/createblog.component */ "./src/app/components/createblog/createblog.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -137,15 +140,15 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 var appRoutes = [
-    { path: '', component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_15__["HomeComponent"] },
-    { path: 'register', component: _components_register_register_component__WEBPACK_IMPORTED_MODULE_7__["RegisterComponent"] },
-    { path: 'login', component: _components_login_login_component__WEBPACK_IMPORTED_MODULE_9__["LoginComponent"] },
-    { path: 'profile', component: _components_profile_profile_component__WEBPACK_IMPORTED_MODULE_12__["ProfileComponent"], canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_11__["AuthGuard"]] },
-    { path: 'setting', component: _components_setting_setting_component__WEBPACK_IMPORTED_MODULE_13__["SettingComponent"], canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_11__["AuthGuard"]] },
-    { path: 'blog', component: _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_14__["BlogComponent"], canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_11__["AuthGuard"]] },
-    { path: 'createblog', component: _components_createblog_createblog_component__WEBPACK_IMPORTED_MODULE_18__["CreateblogComponent"] },
-    { path: 'update/:leave_id', component: _components_update_update_component__WEBPACK_IMPORTED_MODULE_16__["UpdateComponent"], canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_11__["AuthGuard"]] },
-    { path: 'blogone/:leave_id', component: _components_blogone_blogone_component__WEBPACK_IMPORTED_MODULE_17__["BlogoneComponent"] }
+    { path: '', component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_16__["HomeComponent"] },
+    { path: 'register', component: _components_register_register_component__WEBPACK_IMPORTED_MODULE_8__["RegisterComponent"] },
+    { path: 'login', component: _components_login_login_component__WEBPACK_IMPORTED_MODULE_10__["LoginComponent"] },
+    { path: 'profile', component: _components_profile_profile_component__WEBPACK_IMPORTED_MODULE_13__["ProfileComponent"], canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
+    { path: 'setting', component: _components_setting_setting_component__WEBPACK_IMPORTED_MODULE_14__["SettingComponent"], canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
+    { path: 'blog', component: _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_15__["BlogComponent"], canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
+    { path: 'createblog', component: _components_createblog_createblog_component__WEBPACK_IMPORTED_MODULE_19__["CreateblogComponent"] },
+    { path: 'update/:leave_id', component: _components_update_update_component__WEBPACK_IMPORTED_MODULE_17__["UpdateComponent"], canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
+    { path: 'blogone/:leave_id', component: _components_blogone_blogone_component__WEBPACK_IMPORTED_MODULE_18__["BlogoneComponent"] }
 ];
 var AppModule = /** @class */ (function () {
     function AppModule() {
@@ -153,27 +156,28 @@ var AppModule = /** @class */ (function () {
     AppModule = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"],
-                _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_6__["NavbarComponent"],
-                _components_register_register_component__WEBPACK_IMPORTED_MODULE_7__["RegisterComponent"],
-                _components_login_login_component__WEBPACK_IMPORTED_MODULE_9__["LoginComponent"],
-                _components_profile_profile_component__WEBPACK_IMPORTED_MODULE_12__["ProfileComponent"],
-                _components_setting_setting_component__WEBPACK_IMPORTED_MODULE_13__["SettingComponent"],
-                _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_14__["BlogComponent"],
-                _components_home_home_component__WEBPACK_IMPORTED_MODULE_15__["HomeComponent"],
-                _components_update_update_component__WEBPACK_IMPORTED_MODULE_16__["UpdateComponent"],
-                _components_blogone_blogone_component__WEBPACK_IMPORTED_MODULE_17__["BlogoneComponent"],
-                _components_createblog_createblog_component__WEBPACK_IMPORTED_MODULE_18__["CreateblogComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
+                _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_7__["NavbarComponent"],
+                _components_register_register_component__WEBPACK_IMPORTED_MODULE_8__["RegisterComponent"],
+                _components_login_login_component__WEBPACK_IMPORTED_MODULE_10__["LoginComponent"],
+                _components_profile_profile_component__WEBPACK_IMPORTED_MODULE_13__["ProfileComponent"],
+                _components_setting_setting_component__WEBPACK_IMPORTED_MODULE_14__["SettingComponent"],
+                _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_15__["BlogComponent"],
+                _components_home_home_component__WEBPACK_IMPORTED_MODULE_16__["HomeComponent"],
+                _components_update_update_component__WEBPACK_IMPORTED_MODULE_17__["UpdateComponent"],
+                _components_blogone_blogone_component__WEBPACK_IMPORTED_MODULE_18__["BlogoneComponent"],
+                _components_createblog_createblog_component__WEBPACK_IMPORTED_MODULE_19__["CreateblogComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
                 _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
                 _angular_http__WEBPACK_IMPORTED_MODULE_3__["HttpModule"],
-                angular2_flash_messages__WEBPACK_IMPORTED_MODULE_10__["FlashMessagesModule"].forRoot(),
-                _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"].forRoot(appRoutes)
+                angular2_flash_messages__WEBPACK_IMPORTED_MODULE_11__["FlashMessagesModule"].forRoot(),
+                _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"].forRoot(appRoutes),
+                ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__["Ng4LoadingSpinnerModule"].forRoot()
             ],
-            providers: [_services_auth_service__WEBPACK_IMPORTED_MODULE_8__["AuthService"], _guards_auth_guard__WEBPACK_IMPORTED_MODULE_11__["AuthGuard"]],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]]
+            providers: [_services_auth_service__WEBPACK_IMPORTED_MODULE_9__["AuthService"], _guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]],
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -190,7 +194,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".blogCard{\n  background-color: rgb(49, 40, 51);\n}\n\n.hovere{\n  cursor: pointer;\n  color: white\n}\n"
+module.exports = ".blogCard{\n  background-color: #ED9F21;\n  color: #2E3280;\n}\n\n.hovere{\n  cursor: pointer;\n  color: white\n}\n"
 
 /***/ }),
 
@@ -201,7 +205,7 @@ module.exports = ".blogCard{\n  background-color: rgb(49, 40, 51);\n}\n\n.hovere
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n<div class=\"row\">\n  <div class=\"col-xs-12 col-md-3\">\n  </div>\n  <div class=\"col-xs-12  col-md-6\">\n    <h1><legend>Add Blog</legend></h1>\n    <hr/>\n    <form (submit)=\"onsubmit()\" id=\"subject\">\n\n      <div class=\"form-group\">\n        <label for=\"title\">Enter Title</label>\n        <input type=\"text\" name=\"title\" value=\"title\" [(ngModel)]=\"title\" class=\"form-control\" placeholder=\"Enter title\">\n      </div>\n      <div class=\"form-group\">\n        <label for=\"reason\">Add description</label>\n        <textarea class=\"form-control\" [(ngModel)]=\"description\" id=\"reason\" name=\"reason\"  rows=\"3\" placeholder=\"Enter your reason\" ></textarea>\n      </div>\n\n      <div class=\"form-group\">\n        <input type=\"submit\" class=\"btn btn-primary\" value=\"Add Blog\">\n      </div>\n    </form>\n\n  </div>\n</div>\n<hr><br>\n<div class=\"row\">\n  <div class=\"col-xs-12 col-md-12\">\n    <h1>Your Blogs</h1>\n    <hr><br>\n    <div *ngIf=\"blog\">\n    <div class=\"col-xs-12 col-md-12\"  *ngFor=\"let blogs of blog\">\n      <div class=\"jumbotron blogCard\">\n        <input type=\"text\" name=\"leaveid8\" #leaveid8  value=\"{{blogs._id}}\" style=\"display:none\" >\n        <div class=\"card-header\"><h1 class=\"hovere\">{{blogs.title}}</h1></div>\n          <div class=\"card-body\">\n                <h4 class=\"card-title\">Posted on :- {{ (blogs.update).slice(0,10) }}</h4>\n                <p class=\"card-text\">{{blogs.description}}</p>\n\n                <form class=\"\" (submit)=\"ondelete(leaveid8.value)\">\n                  <input type=\"submit\" name=\"button\" class=\"form-control btn btn-md btn-danger\" value=\"Delete\">\n                </form>\n                <br>\n                <a href=\"/update/{{blogs._id}}\" (click)=\"oneblog(leaveid8.value)\" class=\"btn btn-md btn-warning form-control\">Update Blog</a>\n                <hr>\n          </div>\n      </div>\n    </div>\n  </div>\n  </div>\n</div>\n</div>\n"
+module.exports = "<div class=\"container\">\n<div class=\"row\">\n  <div class=\"col-xs-12 col-md-3\">\n  </div>\n  <div class=\"col-xs-12  col-md-6\">\n    <h1 class=\"hovere\"><legend>Add Blog</legend></h1>\n    <hr/>\n    <form (submit)=\"onsubmit()\" id=\"subject\">\n\n      <div class=\"form-group\">\n        <label for=\"title\">Enter Title</label>\n        <input type=\"text\" name=\"title\" value=\"title\" [(ngModel)]=\"title\" class=\"form-control\" placeholder=\"Enter title\">\n      </div>\n      <div class=\"form-group\">\n        <label for=\"reason\">Add description</label>\n        <textarea class=\"form-control\" [(ngModel)]=\"description\" id=\"reason\" name=\"reason\"  rows=\"3\" placeholder=\"Enter your reason\" ></textarea>\n      </div>\n\n      <div class=\"form-group\">\n        <input type=\"submit\" class=\"btn btn-primary\" value=\"Add Blog\">\n      </div>\n    </form>\n\n  </div>\n</div>\n<hr><br>\n<div class=\"row\">\n  <div class=\"col-xs-12 col-md-12\">\n    <h1 class=\"hovere\">Your Blogs</h1>\n    <hr><br>\n    <div *ngIf=\"blog\">\n    <div class=\"col-xs-12 col-md-12\"  *ngFor=\"let blogs of blog\">\n      <div class=\"jumbotron blogCard\">\n        <input type=\"text\" name=\"leaveid8\" #leaveid8  value=\"{{blogs._id}}\" style=\"display:none\" >\n        <div class=\"card-header\"><h1 class=\"hovere\">{{blogs.title}}</h1></div>\n          <div class=\"card-body\">\n                <h4 class=\"card-title\">Posted on :- {{ (blogs.update).slice(0,10) }}</h4>\n                <p class=\"card-text\">{{blogs.description}}</p>\n\n                <form class=\"\" (submit)=\"ondelete(leaveid8.value)\">\n                  <input type=\"submit\" name=\"button\" class=\"form-control btn btn-md btn-danger\" value=\"Delete\">\n                </form>\n                <br>\n                <a href=\"/update/{{blogs._id}}\" (click)=\"oneblog(leaveid8.value)\" class=\"btn btn-md btn-info form-control\">Update Blog</a>\n                <hr>\n          </div>\n      </div>\n    </div>\n  </div>\n  </div>\n</div>\n</div>\n"
 
 /***/ }),
 
@@ -221,6 +225,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 /* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
 /* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ng4-loading-spinner */ "./node_modules/ng4-loading-spinner/ng4-loading-spinner.umd.js");
+/* harmony import */ var ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__);
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -235,21 +241,26 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
 var BlogComponent = /** @class */ (function () {
-    function BlogComponent(authService, router, flashMessage, http) {
+    function BlogComponent(authService, router, flashMessage, http, spinnerService) {
         this.authService = authService;
         this.router = router;
         this.flashMessage = flashMessage;
         this.http = http;
+        this.spinnerService = spinnerService;
     }
     BlogComponent.prototype.ngOnInit = function () {
         var _this = this;
+        this.spinnerService.show();
         this.authService.getuserBlogs().subscribe(function (data) {
+            _this.spinnerService.hide();
             _this.blog = data.blog;
         });
     };
     BlogComponent.prototype.onsubmit = function () {
         var _this = this;
+        this.spinnerService.show();
         var body = {
             title: this.title,
             description: this.description
@@ -257,9 +268,11 @@ var BlogComponent = /** @class */ (function () {
         this.authService.addblog(body).subscribe(function (data) {
             if (data.success === false) {
                 _this.flashMessage.show(data.message, { cssClass: 'alert-danger', timeout: 5000 });
+                _this.spinnerService.hide();
                 _this.router.navigate(['/blog']);
             }
             else if (data.success === true) {
+                _this.spinnerService.hide();
                 _this.flashMessage.show(data.message, { cssClass: 'alert-success', timeout: 5000 });
                 _this.title = '';
                 _this.description = '';
@@ -270,8 +283,10 @@ var BlogComponent = /** @class */ (function () {
     };
     BlogComponent.prototype.ondelete = function (leave_id) {
         var _this = this;
+        this.spinnerService.show();
         this.authService.deleteLeave(leave_id).subscribe(function (data) {
             if (data.success === true) {
+                _this.spinnerService.hide();
                 _this.flashMessage.show(data.message, { cssClass: 'alert-success', timeout: 5000 });
                 _this.router.navigate(['/blog']);
                 window.location.reload();
@@ -287,7 +302,8 @@ var BlogComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [_services_auth_service__WEBPACK_IMPORTED_MODULE_1__["AuthService"],
             _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"],
             angular2_flash_messages__WEBPACK_IMPORTED_MODULE_4__["FlashMessagesService"],
-            _angular_http__WEBPACK_IMPORTED_MODULE_2__["Http"]])
+            _angular_http__WEBPACK_IMPORTED_MODULE_2__["Http"],
+            ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__["Ng4LoadingSpinnerService"]])
     ], BlogComponent);
     return BlogComponent;
 }());
@@ -314,7 +330,7 @@ module.exports = ".hovere{\n  cursor: pointer;\n  color: #2E3280;\n}\n\n.homeBlo
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div *ngIf=\"blog\">\n  <div class=\"row\">\n    <div class=\"col-xs-12 col-md-12\" >\n      <div class=\"jumbotron homeBlog\">\n        <h1 class=\"hovere\">{{blog.title}}</h1>\n        <p class=\"lead\">{{blog.description}}.</p>\n        <hr class=\"my-4\">\n        <p *ngIf=\"blog.name\">By - {{blog.name}}</p>\n        <p>Posted On :- {{ (blog.update).slice(0,10) }}</p>\n      </div>\n      <br><br>\n      <div class=\"form-group\" *ngIf=\"authService.loggedIn()\">\n        <label for=\"title\">Enter your Name</label>\n        <input type=\"text\" name=\"name\" value=\"name\" [(ngModel)]=\"name\" class=\"form-control\" placeholder=\"Enter your username\">\n      </div>\n      <div class=\"form-group\" *ngIf=\"!authService.loggedIn()\">\n        <label for=\"title\">Enter your Name</label>\n        <input type=\"text\" name=\"name\" value=\"name\" [(ngModel)]=\"name\" class=\"form-control\" placeholder=\"Enter name\">\n      </div>\n      <div class=\"form-group\">\n        <label for=\"comment\">Add Comment</label>\n        <textarea class=\"form-control\" [(ngModel)]=\"comment\" id=\"comment\" name=\"comment\"  rows=\"3\" placeholder=\"Enter your comment\" ></textarea>\n      </div>\n      <div class=\"form-group\">\n        <input type=\"submit\" class=\"btn btn-primary\" (click)=\"addComment()\" value=\"Comment\">\n      </div>\n    </div>\n  </div>\n\n<br>\n<h1>Comments</h1>\n<hr>\n<div class=\"col-xs-12 col-md-12\">\n  <div *ngFor=\"let comment of comments\">\n    <div class=\"card text-white bg-dark mb-3 text-center\" style=\"max-width: 20rem;\">\n          <div class=\"card-header\">{{blog.title}}</div>\n            <div class=\"card-body\">\n                  <h4 class=\"card-title\">Comment by:- {{comment.name}}</h4>\n                  <p class=\"card-text\">{{comment.comment}}</p>\n                  <hr>\n            </div>\n        </div>\n  </div>\n</div>\n</div>\n"
+module.exports = "<div *ngIf=\"blog\">\n  <div class=\"row\">\n    <div class=\"col-xs-12 col-md-12\" >\n      <div class=\"jumbotron homeBlog\">\n        <h1 class=\"hovere\">{{blog.title}}</h1>\n        <p class=\"lead\">{{blog.description}}.</p>\n        <hr class=\"my-4\">\n        <p *ngIf=\"blog.name\">By - {{blog.name}}</p>\n        <p>Posted On :- {{ (blog.update).slice(0,10) }}</p>\n      </div>\n      <br><br>\n      <div class=\"form-group\" *ngIf=\"authService.loggedIn()\">\n        <label for=\"title\">Enter your Name</label>\n        <input type=\"text\" name=\"name\" value=\"name\" [(ngModel)]=\"name\" class=\"form-control\" placeholder=\"Enter your username\">\n      </div>\n      <div class=\"form-group\" *ngIf=\"!authService.loggedIn()\">\n        <label for=\"title\">Enter your Name</label>\n        <input type=\"text\" name=\"name\" value=\"name\" [(ngModel)]=\"name\" class=\"form-control\" placeholder=\"Enter name\">\n      </div>\n      <div class=\"form-group\">\n        <label for=\"comment\">Add Comment</label>\n        <textarea class=\"form-control\" [(ngModel)]=\"comment\" id=\"comment\" name=\"comment\"  rows=\"3\" placeholder=\"Enter your comment\" ></textarea>\n      </div>\n      <div class=\"form-group\">\n        <input type=\"submit\" class=\"btn btn-primary\" (click)=\"addComment()\" value=\"Comment\">\n      </div>\n    </div>\n  </div>\n\n<br>\n<h1 style=\"color:white;\">Comments</h1>\n<hr>\n<div class=\"col-xs-12 col-md-12\">\n  <div *ngFor=\"let comment of comments\">\n    <div class=\"card text-white bg-dark mb-3 text-center\" style=\"max-width: 20rem;\">\n          <div class=\"card-header\">{{blog.title}}</div>\n            <div class=\"card-body\">\n                  <h5 class=\"card-title\">By:- {{comment.name}}</h5>\n                  <p class=\"card-text\">{{comment.comment}}</p>\n                  <hr>\n            </div>\n        </div>\n  </div>\n</div>\n</div>\n"
 
 /***/ }),
 
@@ -334,6 +350,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _services_auth_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/auth.service */ "./src/app/services/auth.service.ts");
 /* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
+/* harmony import */ var ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ng4-loading-spinner */ "./node_modules/ng4-loading-spinner/ng4-loading-spinner.umd.js");
+/* harmony import */ var ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__);
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -348,25 +366,31 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
 var BlogoneComponent = /** @class */ (function () {
-    function BlogoneComponent(authService, router, flashMessage, http) {
+    function BlogoneComponent(authService, router, flashMessage, http, spinnerService) {
         this.authService = authService;
         this.router = router;
         this.flashMessage = flashMessage;
         this.http = http;
+        this.spinnerService = spinnerService;
     }
     BlogoneComponent.prototype.ngOnInit = function () {
         var _this = this;
+        this.spinnerService.show();
         this.url = this.router.url.slice(9);
         this.authService.getOneBlogUnauth(this.url).subscribe(function (data) {
+            _this.spinnerService.hide();
             _this.blog = data.blog;
         });
         this.authService.getComments(this.url).subscribe(function (data) {
+            _this.spinnerService.hide();
             _this.comments = data.comments;
         });
     };
     BlogoneComponent.prototype.addComment = function () {
         var _this = this;
+        this.spinnerService.show();
         var body = {
             name: this.name,
             comment: this.comment
@@ -375,10 +399,12 @@ var BlogoneComponent = /** @class */ (function () {
         this.authService.addCommentAnon(this.url, body).subscribe(function (data) {
             if (data.success === false) {
                 _this.flashMessage.show(data.message, { cssClass: 'alert-danger', timeout: 5000 });
+                _this.spinnerService.hide();
                 setTimeout(window.location.reload.bind(location), 2000);
             }
             else if (data.success === true) {
                 _this.flashMessage.show(data.message, { cssClass: 'alert-success', timeout: 5000 });
+                _this.spinnerService.hide();
                 window.location.reload();
             }
         });
@@ -392,7 +418,8 @@ var BlogoneComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [_services_auth_service__WEBPACK_IMPORTED_MODULE_3__["AuthService"],
             _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"],
             angular2_flash_messages__WEBPACK_IMPORTED_MODULE_2__["FlashMessagesService"],
-            _angular_http__WEBPACK_IMPORTED_MODULE_4__["Http"]])
+            _angular_http__WEBPACK_IMPORTED_MODULE_4__["Http"],
+            ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__["Ng4LoadingSpinnerService"]])
     ], BlogoneComponent);
     return BlogoneComponent;
 }());
@@ -408,7 +435,7 @@ var BlogoneComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".hovere{\n  cursor: pointer;\n  color: white;\n}\n"
 
 /***/ }),
 
@@ -419,7 +446,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n<div class=\"row\">\n  <div class=\"col-xs-12 col-md-3\">\n\n  </div>\n  <div class=\"col-xs-12  col-md-6\">\n    <h1><legend>Add Blog</legend></h1>\n    <hr/>\n    <form (submit)=\"onsubmitnew()\" id=\"subject\">\n      <div class=\"form-group\">\n        <label for=\"title\">Enter your Name</label>\n        <input type=\"text\" name=\"name\" value=\"name\" [(ngModel)]=\"name\" class=\"form-control\" placeholder=\"Enter your name\">\n      </div>\n\n      <div class=\"form-group\">\n        <label for=\"title\">Enter Title</label>\n        <input type=\"text\" name=\"title\" value=\"title\" [(ngModel)]=\"title\" class=\"form-control\" placeholder=\"enter title\">\n      </div>\n      <div class=\"form-group\">\n        <label for=\"reason\">Add description</label>\n        <textarea class=\"form-control\" [(ngModel)]=\"description\" id=\"reason\" name=\"reason\"  rows=\"3\" placeholder=\"Enter your reason\" ></textarea>\n      </div>\n\n\n      <div class=\"form-group\">\n        <input type=\"submit\" class=\"btn btn-primary\" value=\"Add Blog\">\n      </div>\n    </form>\n\n  </div>\n</div>\n"
+module.exports = "<div class=\"container\">\n<div class=\"row\">\n  <div class=\"col-xs-12 col-md-3\">\n\n  </div>\n  <div class=\"col-xs-12  col-md-6\">\n    <h1 class=\"hovere\"><legend>Add Blog</legend></h1>\n    <hr/>\n    <form (submit)=\"onsubmitnew()\" id=\"subject\">\n      <div class=\"form-group\">\n        <label for=\"title\">Enter your Name</label>\n        <input type=\"text\" name=\"name\" value=\"name\" [(ngModel)]=\"name\" class=\"form-control\" placeholder=\"Enter your name\">\n      </div>\n\n      <div class=\"form-group\">\n        <label for=\"title\">Enter Title</label>\n        <input type=\"text\" name=\"title\" value=\"title\" [(ngModel)]=\"title\" class=\"form-control\" placeholder=\"enter title\">\n      </div>\n      <div class=\"form-group\">\n        <label for=\"reason\">Add description</label>\n        <textarea class=\"form-control\" [(ngModel)]=\"description\" id=\"reason\" name=\"reason\"  rows=\"3\" placeholder=\"Enter your reason\" ></textarea>\n      </div>\n\n\n      <div class=\"form-group\">\n        <input type=\"submit\" class=\"btn btn-primary\" value=\"Add Blog\">\n      </div>\n    </form>\n\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -539,6 +566,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _services_auth_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/auth.service */ "./src/app/services/auth.service.ts");
 /* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
+/* harmony import */ var ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ng4-loading-spinner */ "./node_modules/ng4-loading-spinner/ng4-loading-spinner.umd.js");
+/* harmony import */ var ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__);
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -553,16 +582,20 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
 var HomeComponent = /** @class */ (function () {
-    function HomeComponent(router, authService, flashMessage, http) {
+    function HomeComponent(router, authService, flashMessage, http, spinnerService) {
         this.router = router;
         this.authService = authService;
         this.flashMessage = flashMessage;
         this.http = http;
+        this.spinnerService = spinnerService;
     }
     HomeComponent.prototype.ngOnInit = function () {
         var _this = this;
+        this.spinnerService.show();
         this.authService.getBlogs().subscribe(function (data) {
+            _this.spinnerService.hide();
             _this.blog = data.blog;
             _this.curPage = 1;
             _this.pageSize = 3;
@@ -588,7 +621,8 @@ var HomeComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"],
             _services_auth_service__WEBPACK_IMPORTED_MODULE_3__["AuthService"],
             angular2_flash_messages__WEBPACK_IMPORTED_MODULE_2__["FlashMessagesService"],
-            _angular_http__WEBPACK_IMPORTED_MODULE_4__["Http"]])
+            _angular_http__WEBPACK_IMPORTED_MODULE_4__["Http"],
+            ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__["Ng4LoadingSpinnerService"]])
     ], HomeComponent);
     return HomeComponent;
 }());
@@ -604,7 +638,7 @@ var HomeComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".loginCard{\n  background-image: linear-gradient(135deg, #1A0B7D 0%, #4D4FE9 50%, #2CD4D9 100%);\n}\n\n.hovere{\n  cursor: pointer;\n  color: white\n}\n"
+module.exports = ".loginCard{\n  background-color: #ED9F21;\n  color: #2E3280;\n}\n\n.hovere{\n  cursor: pointer;\n  color: #2E3280;\n}\n"
 
 /***/ }),
 
@@ -634,6 +668,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
 /* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _services_auth_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/auth.service */ "./src/app/services/auth.service.ts");
+/* harmony import */ var ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ng4-loading-spinner */ "./node_modules/ng4-loading-spinner/ng4-loading-spinner.umd.js");
+/* harmony import */ var ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_4__);
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -647,11 +683,13 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
 var LoginComponent = /** @class */ (function () {
-    function LoginComponent(authService, flashMessage, router) {
+    function LoginComponent(authService, flashMessage, router, spinnerService) {
         this.authService = authService;
         this.flashMessage = flashMessage;
         this.router = router;
+        this.spinnerService = spinnerService;
     }
     LoginComponent.prototype.ngOnInit = function () {
         if (this.authService.loggedIn()) {
@@ -662,6 +700,7 @@ var LoginComponent = /** @class */ (function () {
     };
     LoginComponent.prototype.onLoginSubmit = function () {
         var _this = this;
+        this.spinnerService.show();
         var user = {
             username: this.username,
             password: this.password
@@ -670,15 +709,18 @@ var LoginComponent = /** @class */ (function () {
             if (data.success === false) {
                 _this.flashMessage.show(data.message, { cssClass: 'alert-danger', timeout: 5000 });
                 if (data.message === 'No user found') {
+                    _this.spinnerService.hide();
                     _this.username = '';
                     _this.password = '';
                 }
                 else if (data.message === 'Wrong Password') {
+                    _this.spinnerService.hide();
                     _this.password = '';
                 }
                 _this.router.navigate(['/login']);
             }
             else if (data.success === true) {
+                _this.spinnerService.hide();
                 _this.authService.storeUserData(data.token, data.user);
                 _this.flashMessage.show('Successfully logged in ', { cssClass: 'alert-success', timeout: 5000 });
                 _this.router.navigate(['/']);
@@ -693,7 +735,8 @@ var LoginComponent = /** @class */ (function () {
         }),
         __metadata("design:paramtypes", [_services_auth_service__WEBPACK_IMPORTED_MODULE_3__["AuthService"],
             angular2_flash_messages__WEBPACK_IMPORTED_MODULE_2__["FlashMessagesService"],
-            _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]])
+            _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"],
+            ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_4__["Ng4LoadingSpinnerService"]])
     ], LoginComponent);
     return LoginComponent;
 }());
@@ -720,7 +763,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">\n  <a class=\"navbar-brand\" href=\"/\" onmousedown=\"return false\">BLOG APP</a>\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarColor02\" aria-controls=\"navbarColor02\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n\n  <div class=\"collapse navbar-collapse\" id=\"navbarColor02\">\n    <ul class=\"navbar-nav mr-auto\">\n\n      <li class=\"nav-item a\"  >\n        <a class=\"nav-link\" href=\"/\" onmousedown=\"return false\">Home <span class=\"sr-only\">(current)</span></a>\n      </li>\n      <li class=\"nav-item b\" *ngIf=\"!authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n        <a href=\"createblog\" class=\"nav-link\" onmousedown=\"return false\"> Create Blog</a>\n      </li>\n      <li class=\"nav-item b\" *ngIf=\"authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n        <a href=\"blog\" class=\"nav-link\" onmousedown=\"return false\"> Manage Blogs</a>\n      </li>\n      <li class=\"nav-item c\" *ngIf=\"authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n        <a class=\"nav-link\" href=\"profile\" onmousedown=\"return false\">Profile</a>\n      </li>\n      <li class=\"nav-item d\" *ngIf=\"authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n       <a class=\"nav-link\" href=\"setting\" onmousedown=\"return false\">Settings</a>\n\n      </li>\n\n    </ul>\n    <ul class=\"navbar-nav \">\n    <div *ngIf=\"user\">\n      <li class=\"nav-item\" *ngIf=\"authService.loggedIn()\"  [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n        <a href=\"/profile/leave\" class=\"nav-link\" onmousedown=\"return false\">Hello, {{user.displayName || user.username}}</a>\n      </li>\n    </div>\n      <li class=\"nav-item \" *ngIf=\"authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n        <button  class=\"btn btn-sm nav-link btn-danger\" (click)=\"onlogout()\" onmousedown=\"return false\">Logout</button>\n      </li>\n\n      <li class=\"nav-item e\" *ngIf=\"!authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\" >\n        <a href=\"register\" class=\"nav-link\" onmousedown=\"return false\">signup</a>\n      </li>\n      <li class=\"nav-item f\" *ngIf=\"!authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n        <a href=\"login\" class=\"nav-link\" onmousedown=\"return false\">Login</a>\n      </li>\n    </ul>\n  </div>\n  </nav>\n"
+module.exports = "<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">\n  <a class=\"navbar-brand\" href=\"/\" onmousedown=\"return false\">BLOG APP</a>\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarColor02\" aria-controls=\"navbarColor02\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n\n  <div class=\"collapse navbar-collapse\" id=\"navbarColor02\">\n    <ul class=\"navbar-nav mr-auto\">\n\n      <li class=\"nav-item a\"  >\n        <a class=\"nav-link\" href=\"/\" onmousedown=\"return false\">Home <span class=\"sr-only\">(current)</span></a>\n      </li>\n      <li class=\"nav-item b\" *ngIf=\"!authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n        <a href=\"createblog\" class=\"nav-link\" onmousedown=\"return false\"> Create Blog</a>\n      </li>\n      <li class=\"nav-item b\" *ngIf=\"authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n        <a href=\"blog\" class=\"nav-link\" onmousedown=\"return false\"> Manage Blogs</a>\n      </li>\n      <li class=\"nav-item c\" *ngIf=\"authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n        <a class=\"nav-link\" href=\"profile\" onmousedown=\"return false\">Profile</a>\n      </li>\n      <li class=\"nav-item d\" *ngIf=\"authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n       <a class=\"nav-link\" href=\"setting\" onmousedown=\"return false\">Settings</a>\n\n      </li>\n\n    </ul>\n    <ul class=\"navbar-nav \">\n    <div *ngIf=\"user\">\n      <li class=\"nav-item\" *ngIf=\"authService.loggedIn()\"  [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n        <a href=\"profile\" class=\"nav-link\" onmousedown=\"return false\">Hello, {{user.displayName || user.username}}</a>\n      </li>\n    </div>\n      <li class=\"nav-item \" *ngIf=\"authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n        <button  class=\"btn btn-sm nav-link btn-danger\" (click)=\"onlogout()\" onmousedown=\"return false\">Logout</button>\n      </li>\n\n      <li class=\"nav-item e\" *ngIf=\"!authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\" >\n        <a href=\"register\" class=\"nav-link\" onmousedown=\"return false\">signup</a>\n      </li>\n      <li class=\"nav-item f\" *ngIf=\"!authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n        <a href=\"login\" class=\"nav-link\" onmousedown=\"return false\">Login</a>\n      </li>\n    </ul>\n  </div>\n  </nav>\n"
 
 /***/ }),
 
@@ -788,7 +831,7 @@ var NavbarComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".profileCard{\n  background-color: #ED9F21;\n  color: #2E3280;\n}\n\n.hovere{\n  cursor: pointer;\n  color: white\n}\n"
 
 /***/ }),
 
@@ -799,7 +842,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div *ngIf=\"user\">\n<h1>{{user.username}}'s Profile</h1>\n<hr>\n  <div class=\"jumbotron\">\n    <h3>Joined on : {{user.createdAt}}</h3>\n    <h3>Email : <span style=\"font-size:14px;\"> {{user.email}}</span></h3>\n    <div class=\"card text-white bg-warning mb-3 \" style=\"max-width: 20rem;\">\n      <h3 class=\"card-header\">Bio</h3>\n        <div class=\"card-body \">\n          <h4 class=\"card-title\">{{user.displayName}}</h4>\n          <p class=\"card-text text-center\">{{user.bio || \" \"}}</p>\n        </div>\n    </div>\n    <div class=\"well\">\n      <a href=\"blog\" class=\"btn btn-info\" onmousedown=\"return false\" >Manage Blogs</a>\n      <a href=\"setting\" class=\"btn btn-success\" onmousedown=\"return false\">Update Profile</a>\n    </div>\n<br/>\n\n  </div>\n</div>\n"
+module.exports = "<div *ngIf=\"user\">\n<h1 class=\"hovere\">{{user.username}}'s Profile</h1>\n<hr>\n  <div class=\"jumbotron profileCard\">\n    <h3>Joined on : {{user.createdAt}}</h3>\n    <h3>Email : <span style=\"font-size:14px;\"> {{user.email}}</span></h3>\n    <div class=\"card text-white bg-warning mb-3 \" style=\"max-width: 20rem;\">\n      <h3 class=\"card-header\">Bio</h3>\n        <div class=\"card-body \">\n          <h4 class=\"card-title\">{{user.displayName}}</h4>\n          <p class=\"card-text text-center\">{{user.bio || \" \"}}</p>\n        </div>\n    </div>\n    <div class=\"well\">\n      <a href=\"blog\" class=\"btn btn-info\" onmousedown=\"return false\" >Manage Blogs</a>\n      <a href=\"setting\" class=\"btn btn-success\" onmousedown=\"return false\">Update Profile</a>\n    </div>\n<br/>\n\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -819,6 +862,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _services_auth_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/auth.service */ "./src/app/services/auth.service.ts");
 /* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
+/* harmony import */ var ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ng4-loading-spinner */ "./node_modules/ng4-loading-spinner/ng4-loading-spinner.umd.js");
+/* harmony import */ var ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__);
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -833,16 +878,20 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
 var ProfileComponent = /** @class */ (function () {
-    function ProfileComponent(router, authService, flashMessage, http) {
+    function ProfileComponent(router, authService, flashMessage, http, spinnerService) {
         this.router = router;
         this.authService = authService;
         this.flashMessage = flashMessage;
         this.http = http;
+        this.spinnerService = spinnerService;
     }
     ProfileComponent.prototype.ngOnInit = function () {
         var _this = this;
+        this.spinnerService.show();
         this.authService.getProfile().subscribe(function (data) {
+            _this.spinnerService.hide();
             data.user.createdAt = String(data.user.createdAt).slice(0, 10);
             _this.user = data.user;
         });
@@ -856,7 +905,8 @@ var ProfileComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"],
             _services_auth_service__WEBPACK_IMPORTED_MODULE_3__["AuthService"],
             angular2_flash_messages__WEBPACK_IMPORTED_MODULE_2__["FlashMessagesService"],
-            _angular_http__WEBPACK_IMPORTED_MODULE_4__["Http"]])
+            _angular_http__WEBPACK_IMPORTED_MODULE_4__["Http"],
+            ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__["Ng4LoadingSpinnerService"]])
     ], ProfileComponent);
     return ProfileComponent;
 }());
@@ -872,7 +922,7 @@ var ProfileComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".registerCard{\n  background-image: linear-gradient(135deg, #1A0B7D 0%, #4D4FE9 50%, #2CD4D9 100%);\n}\n\n.hovere{\n  cursor: pointer;\n  color: white\n}\n"
+module.exports = ".registerCard{\n  background-color: #ED9F21;\n  color: #2E3280;\n}\n\n.hovere{\n  cursor: pointer;\n  color: #2E3280;\n}\n"
 
 /***/ }),
 
@@ -883,7 +933,7 @@ module.exports = ".registerCard{\n  background-image: linear-gradient(135deg, #1
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"jumbotron registerCard\">\n<div class=\"row\">\n  <div class=\"col-xs-12 col-md-3\">\n  </div>\n  <div class=\"col-xs-12  col-md-6\">\n    <h1 class=\"hovere\"><legend>SignUp</legend></h1>\n    <hr/>\n    <form (submit)=\"onRegisterSubmit()\">\n      <div class=\"form-group\">\n        <label for=\"exampleInputUsername\">Username</label>\n        <input type=\"username\" [(ngModel)]=\"username\" name=\"username\" class=\"form-control\" id=\"exampleInputUsername\" aria-describedby=\"emailHelp\" maxlength=\"14\" placeholder=\"Enter Username\" required autofocus>\n        <small id=\"exampleInputUsername\" class=\"form-text text-muted\">Use this to login </small>\n      </div>\n      <div class=\"form-group\">\n        <label for=\"exampleInputEmail1\">Email address</label>\n        <input type=\"email\" [(ngModel)]=\"email\" name=\"email\" class=\"form-control\" id=\"exampleInputEmail1\" aria-describedby=\"emailHelp\" maxlength=\"50\" placeholder=\"Enter email\" required >\n        <small id=\"emailHelp\" class=\"form-text text-muted\">We'll never share your email with anyone else.</small>\n      </div>\n      <div class=\"form-group\">\n        <label for=\"exampleInputPassword1\">Password</label>\n        <input type=\"password\" class=\"form-control\" [(ngModel)]=\"password\" name=\"password\" id=\"exampleInputPassword1\" placeholder=\"Password\" maxlength=\"20\" required>\n        <small id=\"exampleInputPassword1\" class=\"form-text text-muted\">Your password is protetced with us.</small>\n      </div>\n      <div class=\"form-group\">\n        <label for=\"exampleInputPassword2\">Confirm Password</label>\n        <input type=\"password\" class=\"form-control\" [(ngModel)]=\"confirmPassword\" name=\"confirmPassword\" id=\"exampleInputPassword2\" placeholder=\"Confirm Password\" maxlength=\"20\" required>\n        <small id=\"exampleInputPassword2\" class=\"form-text text-muted\">Your password is protetced with us.</small>\n      </div>\n\n      <div class=\"form-group\">\n        <input type=\"submit\" class=\"btn btn-primary\" value=\"Sign In\">\n      </div>\n    </form>\n  </div>\n</div>\n</div>\n"
+module.exports = "<div class=\"jumbotron registerCard\">\n<div class=\"row\">\n  <div class=\"col-xs-12 col-md-3\">\n  </div>\n  <div class=\"col-xs-12  col-md-6\">\n    <h1 class=\"hovere\"><legend>SignUp</legend></h1>\n    <hr/>\n    <form (submit)=\"onRegisterSubmit()\">\n      <div class=\"form-group\">\n        <label for=\"exampleInputUsername\">Username</label>\n        <input type=\"username\" [(ngModel)]=\"username\" name=\"username\" class=\"form-control\" id=\"exampleInputUsername\" aria-describedby=\"emailHelp\" maxlength=\"14\" placeholder=\"Enter Username\" required autofocus>\n        <small id=\"exampleInputUsername\" class=\"form-text\">Use this to login </small>\n      </div>\n      <div class=\"form-group\">\n        <label for=\"exampleInputEmail1\">Email address</label>\n        <input type=\"email\" [(ngModel)]=\"email\" name=\"email\" class=\"form-control\" id=\"exampleInputEmail1\" aria-describedby=\"emailHelp\" maxlength=\"50\" placeholder=\"Enter email\" required >\n        <small id=\"emailHelp\" class=\"form-text\">We'll never share your email with anyone else.</small>\n      </div>\n      <div class=\"form-group\">\n        <label for=\"exampleInputPassword1\">Password</label>\n        <input type=\"password\" class=\"form-control\" [(ngModel)]=\"password\" name=\"password\" id=\"exampleInputPassword1\" placeholder=\"Password\" maxlength=\"20\" required>\n        <small id=\"exampleInputPassword1\" class=\"form-text\">Your password is protetced with us.</small>\n      </div>\n      <div class=\"form-group\">\n        <label for=\"exampleInputPassword2\">Confirm Password</label>\n        <input type=\"password\" class=\"form-control\" [(ngModel)]=\"confirmPassword\" name=\"confirmPassword\" id=\"exampleInputPassword2\" placeholder=\"Confirm Password\" maxlength=\"20\" required>\n        <small id=\"exampleInputPassword2\" class=\"form-text\">Your password is protetced with us.</small>\n      </div>\n\n      <div class=\"form-group\">\n        <input type=\"submit\" class=\"btn btn-primary\" value=\"Sign In\">\n      </div>\n    </form>\n  </div>\n</div>\n</div>\n"
 
 /***/ }),
 
@@ -903,6 +953,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _services_auth_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/auth.service */ "./src/app/services/auth.service.ts");
 /* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
+/* harmony import */ var ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ng4-loading-spinner */ "./node_modules/ng4-loading-spinner/ng4-loading-spinner.umd.js");
+/* harmony import */ var ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__);
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -917,12 +969,14 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
 var RegisterComponent = /** @class */ (function () {
-    function RegisterComponent(router, flashMessage, http, authService) {
+    function RegisterComponent(router, flashMessage, http, authService, spinnerService) {
         this.router = router;
         this.flashMessage = flashMessage;
         this.http = http;
         this.authService = authService;
+        this.spinnerService = spinnerService;
     }
     RegisterComponent.prototype.ngOnInit = function () {
         if (this.authService.loggedIn()) {
@@ -933,6 +987,7 @@ var RegisterComponent = /** @class */ (function () {
     };
     RegisterComponent.prototype.onRegisterSubmit = function () {
         var _this = this;
+        this.spinnerService.show();
         var user = {
             username: this.username,
             password: this.password,
@@ -942,6 +997,7 @@ var RegisterComponent = /** @class */ (function () {
         this.authService.registerUser(user).subscribe(function (data) {
             if (data.success === false) {
                 _this.flashMessage.show(data.message, { cssClass: 'alert-danger', timeout: 5000 });
+                _this.spinnerService.hide();
                 if (data.message === 'Username should be greater than 4 and less than 12 characters') {
                     _this.username = '';
                 }
@@ -958,6 +1014,7 @@ var RegisterComponent = /** @class */ (function () {
                 _this.router.navigate(['/register']);
             }
             else if (data.success === true) {
+                _this.spinnerService.hide();
                 _this.flashMessage.show('You can now login', { cssClass: 'alert-success', timeout: 5000 });
                 _this.router.navigate(['/']);
             }
@@ -972,7 +1029,8 @@ var RegisterComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"],
             angular2_flash_messages__WEBPACK_IMPORTED_MODULE_2__["FlashMessagesService"],
             _angular_http__WEBPACK_IMPORTED_MODULE_4__["Http"],
-            _services_auth_service__WEBPACK_IMPORTED_MODULE_3__["AuthService"]])
+            _services_auth_service__WEBPACK_IMPORTED_MODULE_3__["AuthService"],
+            ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__["Ng4LoadingSpinnerService"]])
     ], RegisterComponent);
     return RegisterComponent;
 }());
@@ -988,7 +1046,7 @@ var RegisterComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".settingsCard{\n  background-color: rgb(49, 40, 51);\n}\n\n.hovere{\n  cursor: pointer;\n  color: white\n}\n"
+module.exports = ".settingsCard{\n  background-color: #ED9F21;\n  color: #2E3280;\n}\n\n.hovere{\n  cursor: pointer;\n  color: white\n}\n"
 
 /***/ }),
 
@@ -1019,6 +1077,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _services_auth_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/auth.service */ "./src/app/services/auth.service.ts");
 /* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
+/* harmony import */ var ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ng4-loading-spinner */ "./node_modules/ng4-loading-spinner/ng4-loading-spinner.umd.js");
+/* harmony import */ var ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__);
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1033,22 +1093,27 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
 var SettingComponent = /** @class */ (function () {
-    function SettingComponent(router, authService, flashMessage, http) {
+    function SettingComponent(router, authService, flashMessage, http, spinnerService) {
         this.router = router;
         this.authService = authService;
         this.flashMessage = flashMessage;
         this.http = http;
+        this.spinnerService = spinnerService;
     }
     SettingComponent.prototype.ngOnInit = function () {
         var _this = this;
+        this.spinnerService.show();
         this.authService.getProfile().subscribe(function (data) {
+            _this.spinnerService.hide();
             data.user.createdAt = String(data.user.createdAt).slice(0, 10);
             _this.user = data.user;
         });
     };
     SettingComponent.prototype.changeSetting = function () {
         var _this = this;
+        this.spinnerService.show();
         var user = {
             displayName: this.displayName,
             password: this.password,
@@ -1058,6 +1123,7 @@ var SettingComponent = /** @class */ (function () {
         this.authService.changeSetting(user).subscribe(function (data) {
             if (data.success === false) {
                 _this.flashMessage.show(data.message, { cssClass: 'alert-danger', timeout: 5000 });
+                _this.spinnerService.hide();
                 if (data.message === 'Your passwords do not match') {
                     _this.password = '';
                 }
@@ -1071,6 +1137,7 @@ var SettingComponent = /** @class */ (function () {
             }
             else if (data.success === true) {
                 _this.flashMessage.show(data.message, { cssClass: 'alert-success', timeout: 5000 });
+                _this.spinnerService.hide();
                 _this.router.navigate(['/profile']);
             }
         });
@@ -1084,7 +1151,8 @@ var SettingComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"],
             _services_auth_service__WEBPACK_IMPORTED_MODULE_3__["AuthService"],
             angular2_flash_messages__WEBPACK_IMPORTED_MODULE_2__["FlashMessagesService"],
-            _angular_http__WEBPACK_IMPORTED_MODULE_4__["Http"]])
+            _angular_http__WEBPACK_IMPORTED_MODULE_4__["Http"],
+            ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__["Ng4LoadingSpinnerService"]])
     ], SettingComponent);
     return SettingComponent;
 }());
@@ -1111,7 +1179,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div *ngIf=\"blog\">\n<form (submit)=\"onsubmited()\" id=\"subject\" >\n\n  <div class=\"form-group\">\n    <label for=\"title\">Enter Title</label>\n    <input type=\"text\" name=\"title\" value=\"\" [(ngModel)]=\"title\" class=\"form-control\" placeholder=\"{{blog.title}}\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"reason\">Change description</label>\n    <textarea class=\"form-control\" [(ngModel)]=\"description\" id=\"reason\" name=\"reason\"  rows=\"3\" placeholder=\"{{blog.description}}\" ></textarea>\n  </div>\n\n  <div class=\"form-group\">\n    <input type=\"submit\" class=\"btn btn-primary\" value=\"Update\">\n  </div>\n</form>\n</div>\n"
+module.exports = "\n<div *ngIf=\"blog\">\n<form (submit)=\"onsubmited()\" id=\"subject\" >\n  <div class=\"form-group\">\n    <label for=\"title\">Enter Title</label>\n    <input type=\"text\" name=\"title\" value=\"\" [(ngModel)]=\"title\" class=\"form-control\" placeholder=\"{{blog.title}}\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"reason\">Change description</label>\n    <textarea class=\"form-control\" [(ngModel)]=\"description\" id=\"reason\" name=\"reason\"  rows=\"3\" placeholder=\"{{blog.description}}\" ></textarea>\n  </div>\n\n  <div class=\"form-group\">\n    <input type=\"submit\" class=\"btn btn-primary\" value=\"Update\">\n  </div>\n</form>\n</div>\n"
 
 /***/ }),
 
@@ -1131,6 +1199,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 /* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
 /* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ng4-loading-spinner */ "./node_modules/ng4-loading-spinner/ng4-loading-spinner.umd.js");
+/* harmony import */ var ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__);
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1145,22 +1215,27 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
 var UpdateComponent = /** @class */ (function () {
-    function UpdateComponent(authService, router, flashMessage, http) {
+    function UpdateComponent(authService, router, flashMessage, http, spinnerService) {
         this.authService = authService;
         this.router = router;
         this.flashMessage = flashMessage;
         this.http = http;
+        this.spinnerService = spinnerService;
     }
     UpdateComponent.prototype.ngOnInit = function () {
         var _this = this;
+        this.spinnerService.show();
         this.leave_id = this.router.url.slice(8);
         this.authService.getOneBlog(this.leave_id).subscribe(function (data) {
+            _this.spinnerService.hide();
             _this.blog = data.blog;
         });
     };
     UpdateComponent.prototype.onsubmited = function () {
         var _this = this;
+        this.spinnerService.show();
         var body = {
             title: this.title,
             description: this.description
@@ -1169,9 +1244,11 @@ var UpdateComponent = /** @class */ (function () {
         this.authService.updateOneBlog(this.leave_id, body).subscribe(function (data) {
             if (data.success === false) {
                 _this.flashMessage.show(data.message, { cssClass: 'alert-danger', timeout: 5000 });
+                _this.spinnerService.hide();
                 window.location.reload();
             }
             else if (data.success === true) {
+                _this.spinnerService.hide();
                 _this.flashMessage.show(data.message, { cssClass: 'alert-success', timeout: 5000 });
                 _this.router.navigate(['/blog']);
             }
@@ -1186,7 +1263,8 @@ var UpdateComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [_services_auth_service__WEBPACK_IMPORTED_MODULE_1__["AuthService"],
             _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"],
             angular2_flash_messages__WEBPACK_IMPORTED_MODULE_4__["FlashMessagesService"],
-            _angular_http__WEBPACK_IMPORTED_MODULE_2__["Http"]])
+            _angular_http__WEBPACK_IMPORTED_MODULE_2__["Http"],
+            ng4_loading_spinner__WEBPACK_IMPORTED_MODULE_5__["Ng4LoadingSpinnerService"]])
     ], UpdateComponent);
     return UpdateComponent;
 }());
