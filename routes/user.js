@@ -26,6 +26,17 @@ router.post('/register', (req, res, next) => {
     })
     return next()
   }
+
+  if (username === "undefined" || username === undefined ||
+      email === "undefined" || email === undefined ||
+      password === "undefined" || password === undefined) {
+    res.json({
+      success: false,
+      message: 'Please fill all fields'
+    })
+    return next()
+  }
+
   if (password !== confirmPassword) {
     res.json({
       success: false,
