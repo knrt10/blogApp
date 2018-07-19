@@ -1,0 +1,3 @@
+[submodule "frontEndBlog"]
+	path = frontEndBlog
+	url = https://github.com/knrt10/blogApp.git
